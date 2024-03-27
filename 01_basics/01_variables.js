@@ -17,3 +17,11 @@ let val = null;
 // console.log(accountCity);
 
 console.table([accountId, val, accountEmail, accountPassword, accountCity, accountState])
+
+/*
+NOTES:
+------
+Prefer not to use var
+because of issue in block scope and functional scope.
+
+*/
